@@ -14,36 +14,56 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
         }
         .box{
             background-color: orange;
             padding: 30px;
             border-radius: 10px;
-            text-align: center;
-            width: 400px;
+            text-align: left;
+            width: 450px;
+            box-sizing: border-box;
         }
-
+        h1{
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: white;
+        }
         input{
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 12px;
             border: none;
             border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 15px;
         }
-        button{
+        buttom{
             padding: 10px 20px;
-            background-color: navy;
+            ackground-color: navy;
             color: white;
-            border: none;
+            border: 1px solid white;
             border-radius: 5px;
             cursor: pointer;
+            font-size: 15px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
         }
-
         #result{
-            margin-top: 20px;
-            font-size: 18px;
-            font-weight: bold;
+            margin-top: 10px;
+            font-size: 15px;
+            font-weight: normal;
+            background-color: rgba(0, 0, 0, 0.25);
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.6;
+            color: white;
         }
     </style>
 </head>
